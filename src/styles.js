@@ -10,7 +10,7 @@ const styles = {
     display: 'block'
   },
   title: {
-    fontSize: 24,
+    fontSize: 25,
     fontWeight: typography.fontWeightLight,
     marginBottom: 20
   },
