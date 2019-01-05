@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/client/Epics/index.js"],"names":["loginEpic"],"mappings":";;;;;;AAAA;;AACA;;kBAEe,mCAAaA,0BAAb,C","file":"index.js","sourcesContent":["import { combineEpics } from 'redux-observable';\nimport {loginEpic} from '../containers/LoginPageModule';\n\nexport default combineEpics(loginEpic);\n"]}

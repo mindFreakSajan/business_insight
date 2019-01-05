@@ -4,6 +4,10 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import config from '../webpack.config.dev';
+// import React from 'react';
+// import Hapi from 'hapi';
+// import WebpackPlugin from 'hapi-webpack-plugin';
+import loginapi from './Login/login';
 
 const bundler = webpack(config);
 
@@ -33,7 +37,7 @@ browserSync({
           chunkModules: false
         },
       }),
-
+      {...loginapi},
       webpackHotMiddleware(bundler)
     ]
   },
@@ -42,3 +46,16 @@ browserSync({
     'src/*.html'
   ]
 });
+// const server = new Hapi.Server();
+// server.connection({
+//   port: 3000
+// });
+// server.start(() => {
+//   console.log(`Server is running at ${server.info.uri}`);
+// });
+//   server.register({
+//     register: WebpackPlugin,
+//     options: './webpack.config.dev.js',
+//   });
+//   server.route(loginapi);
+
