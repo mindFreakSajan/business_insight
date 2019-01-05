@@ -34,7 +34,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 require('./favicon.ico'); /* eslint-disable import/default */
 
-//injectTapEventPlugin();
+(0, _reactTapEventPlugin2.default)();
 var store = (0, _store2.default)(_reactRouter.browserHistory);
 
 var history = (0, _reactRouterRedux.syncHistoryWithStore)(_reactRouter.browserHistory, store);

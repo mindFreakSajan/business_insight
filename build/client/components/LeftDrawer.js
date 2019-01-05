@@ -84,7 +84,7 @@ var LeftDrawer = function LeftDrawer(props) {
     _react2.default.createElement(
       'div',
       { style: styles.avatar.div },
-      _react2.default.createElement(_Avatar2.default, { src: '../images/busiman.png',
+      _react2.default.createElement(_Avatar2.default, { src: require('../images/busiman.png'),
         size: 50,
         style: styles.avatar.icon }),
       _react2.default.createElement(
