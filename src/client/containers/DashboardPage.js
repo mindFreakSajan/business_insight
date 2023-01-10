@@ -16,7 +16,7 @@ const DashboardPage = () => {
 
   return (
     <div>
-      <h3 style={globalStyles.navigation}>Application / Dashboard</h3>
+      <h3 style={globalStyles.navigation}>Dashboard</h3>
 
       <div className="row">
 
