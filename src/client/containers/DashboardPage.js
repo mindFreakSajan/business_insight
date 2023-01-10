@@ -16,14 +16,14 @@ const DashboardPage = () => {
 
   return (
     <div>
-      <h3 style={globalStyles.navigation}>Application / Dashboard</h3>
+      <h3 style={globalStyles.navigation}>Dashboard</h3>
 
       <div className="row">
 
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={ShoppingCart}
                    color={pink600}
-                   title="Total Profit"
+                   title="Total Profit/income"
                    value="1500k"
           />
         </div>
